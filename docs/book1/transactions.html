@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html> 
+<head>
+ 
+	<title>Transactions</title>
+ 
+	<!-- JavaScript -->
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script> 
+	<script type="text/javascript">
+	
+
+document.addEventListener("deviceready", function () {
+    $("#yes").on("click", function () {
+        playAudio(/android_asset/www/audio/basic/yes.mp3);
+    });
+    $("#no").on("click", function () {
+        playAudio(/android_asset/www/audio/basic/no.mp3);
+    });
+}, false);
+
+		var my_media = null;
+var mediaTimer = null;
+function playAudio(src) {
+    // Create Media object from src
+    my_media = new Media(src, onSuccess, onError);
+    // Play audio
+    my_media.play();
+}
+// onSuccess Callback
+function onSuccess() {
+    console.log("playAudio():Audio Success");
+}
+// onError Callback
+function onError(error) {
+    alert('code: ' + error.code + '\n' +
+        'message: ' + error.message + '\n');
+}
+	</script>
+ 
+	<!-- CSS -->
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+ 
+<body>
+ 
+
+
+
+	<button class="button" id="yes">Yes</button>
+	<button class="button" id="no">No</button>
+
+	
+ 	
+</body>
+ 
+</html>

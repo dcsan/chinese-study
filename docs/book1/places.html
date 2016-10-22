@@ -1,0 +1,41 @@
+    <!DOCTYPE HTML>
+    <html>
+      <head>
+        <title>Media Example</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" charset="utf-8" src="cordova-1.7.0.js"></script> 
+        <script type="text/javascript" charset="utf-8">
+
+   document.addEventListener("deviceready", function () {
+    $("#Yes").on("click", function () {
+        playAudio(audio/basic/yes.mp3);
+    });
+    $("#No").on("click", function () {
+        playAudio(audio/basic/no.mp3);
+    });
+}, false);
+
+var my_media = null;
+var mediaTimer = null;
+function playAudio(src) {
+    // Create Media object from src
+    my_media = new Media(src, onSuccess, onError);
+    // Play audio
+    my_media.play();
+}
+// onSuccess Callback
+function onSuccess() {
+    console.log("playAudio():Audio Success");
+}
+// onError Callback
+function onError(error) {
+    alert('code: ' + error.code + '\n' +
+        'message: ' + error.message + '\n');
+}
+      </head>
+      <body>
+      
+      <a href="#Yes" class="button" onclick="playAudio('/android_asset/www/audio/basic/yes.mp3');">Yes</a>
+      
+      </body>
+    </html>

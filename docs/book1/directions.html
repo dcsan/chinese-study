@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html> 
+<head>
+ 
+	<title>Home</title>
+ 
+	<!-- JavaScript -->
+	<script type="text/javascript">
+		// Put code here or set the src attribute
+	</script>
+ 
+	<!-- CSS -->
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+ 
+<body>
+ 
+	<audio id="lost" src="audio/directions/imlost.mp3" type='audio/mepg; codecs="mp3"'></audio>
+	<audio id="gohere" src="audio/directions/iwanttogotothisplace.mp3"></audio>
+	<audio id="map" src="audio/directions/mayihaveamap.mp3"></audio>
+	<audio id="subway" src="audio/directions/subway.mp3"></audio>
+	<audio id="wheresubway" src="audio/directions/whereisthesubway.mp3"></audio>
+	<audio id="bathroom" src="audio/directions/whereisthebathroom.mp3"></audio>
+	
+	<button class="button" onclick="document.getElementById('bathroom').play()">Where is the bathroom?</button>
+	<button class="button" onclick="document.getElementById('map').play()">May I have a map?</button>
+	<button class="button" onclick="document.getElementById('gohere').play()">I want to go to this place (point)</button>
+	<button class="button" onclick="document.getElementById('subway').play()">Subway</button>
+	<button class="button" onclick="document.getElementById('wheresubway').play()">Where is the subway?</button>
+	<button class="button" onclick="document.getElementById('lost').play()">I am lost</button>
+</body>
+ 
+</html>
