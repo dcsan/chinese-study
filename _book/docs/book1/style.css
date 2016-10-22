@@ -1,0 +1,55 @@
+﻿body {
+	background: black;				
+}
+
+.button {
+	background: white;
+	border-radius: 25px;
+	padding: 5px 2px 0px 2px;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	border: solid 2px black;
+	list-style-type: none;
+	margin: auto;
+	width: 100%
+}
+
+.button:hover {
+	background: lightyellow;
+	font-weight: bold;
+		
+}
+
+
+ul {
+	margin: auto;
+	padding: 5px 2px 0px 2px;
+}
+
+ul li {
+	background: white;
+	border-radius: 25px;
+	padding-top: 5px;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	border: solid 2px black;
+	list-style-type: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;				
+}
+
+a:hover {
+	background: lightyellow;
+}
+
+li:hover {
+	background: lightyellow;
+	font-weight: bold;
+}
