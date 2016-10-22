@@ -1,7 +1,9 @@
-Driver：你好，你要去哪儿？/ 你去哪里？(Nǐ hǎo, nǐ yào qù nǎr? / Nǐ qù nǎlǐ?)
+Driver：你好，你要去哪儿？/ 你去哪里？
+Nǐ hǎo, nǐ yào qù nǎr? / Nǐ qù nǎlǐ?
 Hello, where are you going?
 
-Passenger：我要去……/ 我去…… (Wǒ yào qù …. / Wǒ qù …)
+Passenger：我要去……/ 我去……
+Wǒ yào qù …. / Wǒ qù …
 I’m going to…
 
 Driver：要走高架吗？( Yào zǒu gāojià ma?)
@@ -43,86 +45,94 @@ Please turn down the radio.
 请开一下后备箱。(qǐng kāi yī xià hòu bèi xiāng)
 Please open the trunk.
 
-1. Where would you like to go?
-
+Where would you like to go?
 您想去哪儿？
-
 nín xiǎng qù nǎ er？
 
-
-2. Please go to the airport.
-
+Please go to the airport.
 去机场。
 qù jī chǎng。
 
-3. Please turn on the meter.
+Please turn on the meter.
 请打表。
 qǐng dǎ biǎo。
 
-4. Where are you going?
+Where are you going?
 您这是要去哪儿？
 nín zhè shì yào qù nǎ er？
 
-5. Why are you going this way?
+Why are you going this way?
 为什么要这样走？
 wèi shén me yào zhè yàng zǒu？
 
-6. Please drive faster.
+Please drive faster.
 请开快些。
 qǐng kāi kuài xiē。
 
-7. Please drive slower.
+Please drive slower.
 请开慢点儿。
 qǐng kāi màn diǎn ér。
 
-8. Turn right.
+Turn right.
 请右转。
 qǐng yòu zhuǎn。
 
-9. Turn Left.
+Turn Left.
 请左转。
 qǐng zuǒ zhuǎn。
 
-10. Go straight.
+Go straight.
 直走。
 zhí zǒu。
 
-11. Turn around.
+Turn around.
 掉头。
 diào tóu。
 
-12. Don't stop here.
+Don't stop here.
 别在这里停车。
 bié zài zhè lǐ tíng chē。
 
-13. Where are we?
+Where are we?
 我们现在在哪里？
 wǒ men xiàn zài zài nǎ lǐ？
 
-14. Please stop here.
+Please stop here.
 请在这里停车。
 qǐng zài zhè lǐ tíng chē。
 
-15. Please stop up there.
+Please stop up there.
 请在那儿停车。
 qǐng zài nà lǐ tíng chē。
 
-16. What is the fare?
+What is the fare?
 多少钱？
 duō shǎo qián？
 
-17. I am in a hurry.
+I am in a hurry.
 我赶时间。
 wǒ gǎn shí jiān。
 
-18. I am not in a hurry.
+I am not in a hurry.
 我不着急。
 wǒ bù zháo jí。
 
-19. Do you have change?
+Do you have change?
 您有零钱找吗？
 nín yǒu líng qián zhǎo ma？
 
-20. Please take the tollway.
+Please take the tollway.
 请走高速公路。
 qǐng zǒu gāo sù gōng lù。
+
+Turn left.
+左拐。
+Zuǒ guǎi.
+
+Turn right.
+右拐。
+Yòu guǎi.
+
+Go straight.
+直走。
+Zhí zǒu.
